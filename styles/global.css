@@ -20,7 +20,7 @@ html {
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
 
-  font-size: 62.5%;
+  font-size: 62.5%; /*  10px  */
 }
 
 body {
@@ -33,9 +33,9 @@ body,
 button,
 input,
 textarea {
-  /* clamp: intervalo de tamanho */
+  /* clamp: intervalo de tamanho (min, padrao, max) */
   font-size: clamp(14px, 1.6rem, 2vw);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .content {
@@ -66,7 +66,7 @@ button,
 
 button,
 .button {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 0;
 
